@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Fun Time | Contact Page</title>
+		<title>Fun Time | Fun Videos </title>
 		<meta name="description" content="Circular Navigation Styles - Building a Circular Navigation with CSS Transforms | Codrops " />
 		<meta name="keywords" content="css transforms, circular navigation, round navigation, circular menu, tutorial" />
 		<meta name="author" content="Sara Soueidan for Codrops" />
@@ -13,6 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component2.css" />
 		<script src="js/modernizr-2.6.2.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 <script type="text/javascript">
 var _gaq = _gaq || [];
@@ -142,58 +143,35 @@ body.dark {
     box-shadow: 5px 10px 30px rgba(0,0,0,0.4);
 }
 
-* {
-  box-sizing: border-box;
+
+
+
+.cell{
+width: 30%;
+height: 250px;
+display: inline-block;
+margin: 0 15px;
+border: 3px solid #f1c40f;
+border-radius: 8px;
+overflow: hidden;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
+.cell img{
+width: 100%;
+height:400px;
+object-fit: cover;
+} 
+ 
+.flickity-page-dots: dot{
+background-color: #f1c40f;
 }
 
-.header {
-  text-align: center;
-  padding: 32px;
-}
 
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
+@media only screen and (max-width: 991px){
+.cell{
+width: 330px;
+height:260px;
 }
-
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
 }
 
 </style>
@@ -263,7 +241,7 @@ chk.addEventListener('change', () => {
 			<section>
 				
 <div style= "background-color:#8080805c";><marquee behavior="alternate"><CENTER>
-WELCOME TO MEMES
+WELCOME TO FUN VIDEOS
  PAGE</CENTER></marquee>
 
 </div>
@@ -271,60 +249,31 @@ WELCOME TO MEMES
 <pre>
 
 </pre>
-<!-- Photo Grid -->
-<div class="row"> 
-  <div class="column">
-    <img src="C:\Users\Akhil\Desktop\meme collection\90s kid will know.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\all types of relationships.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\balayya shampoo.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\definition of makeup.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\olx underwere batch.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\over expected.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\picture of my girlfriend.jpg" style="width:100%">
-   <img src="C:\Users\Akhil\Desktop\meme collection\slient mode friend.jpg" style="width:100%">
-  
 
- </div>
-  <div class="column">
-    <img src="C:\Users\Akhil\Desktop\meme collection\donga friend.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\dont stab too many times.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\dont reject a guy with his look.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\flirting original vs reality.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\planning to meet my friend.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\proposing is dream.jpg" style="width:100%">
-<img src="C:\Users\Akhil\Desktop\meme collection\sugar patient guy.jpg" style="width:100%">
-  <img src="C:\Users\Akhil\Desktop\meme collection\toppers on holydays.jpg" style="width:100%">
-  <img src="C:\Users\Akhil\Desktop\meme collection\unproffesional friend.jpg" style="width:100%">
-  
-</div>  
-  <div class="column">
-    <img src="C:\Users\Akhil\Desktop\meme collection\indhu named girl.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\join in my college fasakk.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\indhu named girl.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\join in my college fasakk.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\life of mother.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\pulihora friend in every batch.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\respect those engineer.jpg" style="width:100%">
-  <img src="C:\Users\Akhil\Desktop\meme collection\taggesh friend.jpg" style="width:100%">
-  <img src="C:\Users\Akhil\Desktop\meme collection\types of reactions when shouting.jpg" style="width:100%">
-  <img src="C:\Users\Akhil\Desktop\meme collection\value of rich.jpg" style="width:100%">
-     
- </div>
-  <div class="column">
-    <img src="C:\Users\Akhil\Desktop\meme collection\me on my friend everytime.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\me on pulihora situation.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\motivational.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\my friend while sleep.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\secret of sbi.jpg" style="width:100%">
-    <img src="C:\Users\Akhil\Desktop\meme collection\sectet of ratan tata.jpg" style="width:100%">
-  <img src="C:\Users\Akhil\Desktop\meme collection\talented guy.jpg" style="width:100%">
-  <img src="C:\Users\Akhil\Desktop\meme collection\types of vegetarians in india.jpg" style="width:100%">
-  <img src="C:\Users\Akhil\Desktop\meme collection\vizag beach lover will know.jpg" style="width:100%">
-     
-</div>
+<div class="main-carousel">
+<div class="cell"><iframe width="330" height="280" src="https://www.youtube.com/embed/kEcoBmwCvrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="cell"><iframe width="330" height="280" src="https://www.youtube.com/embed/RKU6x1n9Hak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="cell"><iframe width="330" height="280" src="https://www.youtube.com/embed/s8n16rns-iM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="cell"><iframe width="330" height="280" src="https://www.youtube.com/embed/QpNXHJGfGYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="cell"><iframe width="330" height="280" src="https://www.youtube.com/embed/4LMgCNgAmvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="cell"><iframe width="330" height="280" src="https://www.youtube.com/embed/4LMgCNgAmvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
 </div>
 
 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+ 
+<script>
+
+$(".main-carousel").flickity({
+cellAlign: 'left', // when start it left
+wrapAound: true,
+freeScroll: true
+});
+
+
+</script>
 
 
 
